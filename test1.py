@@ -30,6 +30,8 @@ def imageExpand(image,num):
 img = cv2.imread("C:/Users/wang/Desktop/final_tons/1-171-1.jpg")#image read be 'gray'
 img_gray = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
 
+print ("this is a test")
+
 
 cv2.imshow("shit",img_gray)
 cv2.waitKey(0)
